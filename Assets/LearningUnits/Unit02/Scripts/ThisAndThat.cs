@@ -8,8 +8,11 @@ public class ThisAndThat : MonoBehaviour
 
     bool isRedCubeDetected, isBlueCubeDeteced, areBothCubesDetected;
 
-    // DIRECTIONS: This script is missing a crucial "if statement" in the Update() method
-    // None of the existing code needs to change, but something must be added...
+    // DIRECTIONS: This script is missing a crucial "if statement" in the Update() method.
+    // Nothing in Update() needs to change, but something must be added...
+    //
+    // The "if statements" in OnTriggerEnter() also need to be fixed.
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,14 +31,14 @@ public class ThisAndThat : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == blueCube)
-        {
-            isBlueCubeDeteced = true;
-        }
+        //if (other.gameObject something something)
+        //{
+        //    isBlueCubeDeteced = true;
+        //}
 
-        if (other.gameObject == redCube)
-        {
-            isRedCubeDetected = true;
-        }
+        //if (other.gameObject something something)
+        //{
+        //    isRedCubeDetected = true;
+        //}
     }
 }

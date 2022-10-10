@@ -7,7 +7,7 @@ public class MoveThenStop : MonoBehaviour
     Vector3 moveDirection;
     Vector3 destination;
 
-    // In this Unit, no new code should be written. The goal is to use
+    // DIRECTIONS: In this Unit, no new code should be written. The goal is to use
     // the existing code, rearranged, to get the
     // cube to stop moving when it reaches its destination;
 
