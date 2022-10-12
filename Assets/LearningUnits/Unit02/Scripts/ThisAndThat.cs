@@ -14,6 +14,8 @@ public class ThisAndThat : MonoBehaviour
     // The "if statements" in OnTriggerEnter() also need to be fixed.
     //
     // The goal is that the door should open when both cubes are in the trigger zone. 
+    //
+    // The next Unit, Unit03, should also work if you fix this script, but there's something missing in Unit03's scene...
 
 
     // Start is called before the first frame update
