@@ -12,6 +12,8 @@ public class ThisAndThat : MonoBehaviour
     // Nothing in Update() needs to change, but something must be added...
     //
     // The "if statements" in OnTriggerEnter() also need to be fixed.
+    //
+    // The goal is that the door should open when both cubes are in the trigger zone. 
 
 
     // Start is called before the first frame update
