@@ -23,7 +23,7 @@ public class ThisAndThat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (areBothCubesDetected)
+        if (isBlueCubeDeteced && isRedCubeDetected)
         {
             door.GetComponent<MoveToLocation>().enabled = true;
         }
@@ -31,14 +31,14 @@ public class ThisAndThat : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //if (other.gameObject something something)
-        //{
-        //    isBlueCubeDeteced = true;
-        //}
+        if (other.gameObject == blueCube)
+        {
+           isBlueCubeDeteced = true;
+        }
 
-        //if (other.gameObject something something)
-        //{
-        //    isRedCubeDetected = true;
-        //}
+        if (other.gameObject == redCube)
+        {
+           isRedCubeDetected = true;
+        }
     }
 }
